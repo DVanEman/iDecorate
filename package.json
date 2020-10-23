@@ -1,7 +1,6 @@
 {
   "name": "mern-shopping",
   "version": "1.0.0",
-  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -18,5 +17,15 @@
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DVanEman/iDecorate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DVanEman/iDecorate/issues"
+  },
+  "homepage": "https://github.com/DVanEman/iDecorate#readme",
+  "description": ""
 }
