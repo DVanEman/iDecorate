@@ -3,6 +3,10 @@
 
 ![](https://img.shields.io/badge/Created%20by-Andrew%20van%20Eman-blue?style=for-the-badge)  ![](https://img.shields.io/badge/DeMario%20Williams-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Jack%20Hoover-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Ryanne%20killian-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Victor%20Cesar%20Lopez-blue?style=for-the-badge)  
 
+![](https://img.shields.io/badge/MongoDB-green?style=flat-square&logo=mongodb) 
+![](https://img.shields.io/badge/%20-Express-red?style=flat-square&logo=) 
+![](https://img.shields.io/badge/%20-React-blue?style=flat-square&logo=react) 
+![](https://img.shields.io/badge/%20-Node-darkgreen?style=flat-square&logo=node.js) 
  ## Table of Contents:  
 
 [1. Description](#Description)  
@@ -26,6 +30,11 @@ iDecorate is a application that can help you decorate your living space.  Simply
 
 
 ## Installation
+To install locally
+ 1.  Download the source files from the github repository located here: [iDecorate](https://github.com/DVanEman/iDecorate)  
+ 2.  npm install  
+ 3.  npm run seed  
+ 4.  npm start  
 
 
 
@@ -36,14 +45,13 @@ iDecorate is a application that can help you decorate your living space.  Simply
 https://github.com/DVanEman/iDecorate
 
 ## Questions:  
-Team github links:  
-### Andrew Van Eman  
-[github](https://github.com/DVanEman)
-### DeMario Williams
-[github](https://github.com/DWill1440)
-### Jack Hoover
-[github](https://github.com/jhoover1077)
-### Ryanne Killian
-[github](https://github.com/ryannekillian)
-### Victor Cesar Lopez  
-[github](https://github.com/civ187) - [email](civ187@gmail.com)
+
+### Andrew Van Eman  [github](https://github.com/DVanEman) - [email](d.vaneman25@gmail.com)
+
+### DeMario Williams  [github](https://github.com/DWill1440) - [email](dwill2think@gmail.com)
+
+### Jack Hoover  [github](https://github.com/jhoover1077) - [email]()
+
+### Ryanne Killian  [github](https://github.com/ryannekillian) - [email](ryanne.killian@gmail.com)
+
+### Victor Cesar Lopez  [github](https://github.com/civ187) - [email](civ187@gmail.com)
