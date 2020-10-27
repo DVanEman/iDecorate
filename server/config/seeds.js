@@ -18,14 +18,6 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Black Couch',
-      description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'black-couch.png',
-      category: categories[0]._id,
-      price: 299.99
-    },
-    {
       name: 'Black Lamp',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
@@ -58,16 +50,8 @@ db.once('open', async () => {
       price: 149.99
     },
     {
-      name: 'Brown Desk',
-      category: categories[3]._id,
-      description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'brown-desk.png',
-      price: 399.99
-    },
-    {
       name: 'Butterfly Clock',
-      category: categories[4]._id,
+      category: categories[1]._id,
       description:
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
       image: 'butterfly-clock.png',
@@ -83,17 +67,121 @@ db.once('open', async () => {
     },
     {
       name: 'Curvy Couch',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'curvy-couch.png',
       price: 199.99
     },
     {
       name: 'Egg Chair',
-      category: categories[4]._id,
+      category: categories[1]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'egg-chair.png',
+      price: 299.99
+    },
+    {
+      name: 'Glass Table',
+      category: categories[0]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'glass-table.png',
+      price: 199.99
+    },
+    {
+      name: 'Grey Chair',
+      category: categories[3]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'grey-chair.png',
+      price: 149.99
+    },
+    {
+      name: 'Pale Couch',
+      category: categories[1]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'pale-couch.png',
+      price: 149.99
+    },
+    {
+      name: 'Pearl Couch',
+      category: categories[2]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'pearl-couch.png',
+      price: 349.99
+    },
+    {
+      name: 'Simple Desk',
+      category: categories[3]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'simple-desk.png',
+      price: 149.99
+    },
+    {
+      name: 'Tall Lamp',
+      category: categories[1]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'tall-lamp.png',
+      price: 199.99
+    },
+    {
+      name: 'Wall Art',
+      category: categories[1]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'wall-art.png',
+      price: 49.99
+    },
+    {
+      name: 'White Lamp',
+      category: categories[0]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'white-lamp.png',
+      price: 149.99
+    },
+    {
+      name: 'Wire Table',
+      category: categories[1]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'wire-table.png',
+      price: 249.99
+    },
+    {
+      name: 'Wood Clock',
+      category: categories[0]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'wood-clock.png',
+      price: 99.99
+    },
+    {
+      name: 'Wood Lamp',
+      category: categories[1]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'wood-lamp.png',
+      price: 149.99
+    },
+    {
+      name: 'Worn Clock',
+      category: categories[4]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'worn-clock.png',
+      price: 49.99
+    },
+    {
+      name: 'Yellow Chair',
+      category: categories[3]._id,
+      description:
+        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+      image: 'yellow-chair.png',
       price: 299.99
     }
   ]);
