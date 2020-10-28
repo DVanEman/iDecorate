@@ -50,7 +50,7 @@ https://github.com/DVanEman/iDecorate
 
 ### DeMario Williams  [github](https://github.com/DWill1440) - [email](dwill2think@gmail.com)
 
-### Jack Hoover  [github](https://github.com/jhoover1077) - [email]()
+### Jack Hoover  [github](https://github.com/jhoover1077) - [email](j.hoover1121@gmail.com)
 
 ### Ryanne Killian  [github](https://github.com/ryannekillian) - [email](ryanne.killian@gmail.com)
 
