@@ -4,13 +4,13 @@
 ![](https://img.shields.io/badge/Created%20by-Andrew%20van%20Eman-blue?style=for-the-badge)  ![](https://img.shields.io/badge/DeMario%20Williams-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Jack%20Hoover-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Ryanne%20killian-blue?style=for-the-badge)  ![](https://img.shields.io/badge/Victor%20Cesar%20Lopez-blue?style=for-the-badge)  
 
 ![](https://img.shields.io/badge/MongoDB-green?style=flat-square&logo=mongodb) 
-![](https://img.shields.io/badge/%20-Express-red?style=flat-square&logo=) 
-![](https://img.shields.io/badge/%20-React-blue?style=flat-square&logo=react) 
-![](https://img.shields.io/badge/%20-Node-darkgreen?style=flat-square&logo=node.js) 
+![](https://img.shields.io/badge/Express-red?style=flat-square&logo=) 
+![](https://img.shields.io/badge/React-blue?style=flat-square&logo=react) 
+![](https://img.shields.io/badge/Node-darkgreen?style=flat-square&logo=node.js) 
  ## Table of Contents:  
 
 [1. Description](#Description)  
-[2. Acceptance Criteria](#Acceptance-Criteria)  
+[2. Technology Used](#Technology-Used)  
 [3. Screen Shots](#Screen_Shots)  
 [4. Installation](#Installation)  
 [5. License Details](#License-Details)  
@@ -21,28 +21,43 @@
 iDecorate is a application that can help you decorate your living space.  Simply login, select your area and add the items that you want to your cart.
 
 
-## Acceptance Criteria  
-
-
-
+## Technology Used  
+- React for the front end.  
+- GraphQL with a Node.js and Express.js server.  
+- MongoDB and the Mongoose ODM for the database.  
+- Queries and mutations for retrieving, adding, updating, and deleting data.  
+- JWT authentication.  
+- Meet the minimum requirements of a PWA:  
+  - Uses a web manifest
+  - Uses a service worker for offline functionality
+  
 ## Screen Shots
 
 
 
 ## Installation
-To install locally
- 1.  Download the source files from the github repository located here: [iDecorate](https://github.com/DVanEman/iDecorate)  
- 2.  npm install  
- 3.  npm run seed  
- 4.  npm start  
 
 
+To run this app locally do the following:  
+1. Download the source files from the github repository located here: [iDecorate github Repository](https://github.com/DVanEman/iDecorate)  
+
+2. Run the following at the command line
+```
+    $ npm install
+    $ npm run seed
+```
+
+3. Start the server
+```
+    $ npm start
+```
 
 ## License Details  
-
+This project is under no license.
 
 ## Submission  
-https://github.com/DVanEman/iDecorate
+[github repository](https://github.com/DVanEman/iDecorate)  
+[iDecorate heroku depolyment (placeholder link)](htts://heroko.deployment.placeholder)
 
 ## Questions:  
 
