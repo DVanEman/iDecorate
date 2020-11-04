@@ -5,11 +5,11 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Living Room' },
-    { name: 'Bedroom' },
-    { name: 'Outdoors' },
-    { name: 'Study' },
-    { name: 'Kitchen' }
+    { name: 'Lamps' },
+    { name: 'Couches' },
+    { name: 'Wall Art' },
+    { name: 'Chairs' },
+    { name: 'Tables' }
   ]);
 
   console.log('categories seeded');
@@ -27,7 +27,7 @@ db.once('open', async () => {
     },
     {
       name: 'Black Gooseneck Lamp',
-      category: categories[3]._id,
+      category: categories[0]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
       image: 'black-pixar.png',
@@ -35,7 +35,7 @@ db.once('open', async () => {
     },
     {
       name: 'Blue Chair',
-      category: categories[4]._id,
+      category: categories[3]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
       image: 'blue-chair.png',
@@ -43,7 +43,7 @@ db.once('open', async () => {
     },
     {
       name: 'Blue Couch',
-      category: categories[0]._id,
+      category: categories[1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
       image: 'blue-couch.png',
@@ -51,7 +51,7 @@ db.once('open', async () => {
     },
     {
       name: 'Butterfly Clock',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description:
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
       image: 'butterfly-clock.png',
@@ -67,14 +67,14 @@ db.once('open', async () => {
     },
     {
       name: 'Curvy Couch',
-      category: categories[0]._id,
+      category: categories[1]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'curvy-couch.png',
       price: 199.99
     },
     {
       name: 'Egg Chair',
-      category: categories[1]._id,
+      category: categories[3]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'egg-chair.png',
@@ -82,7 +82,7 @@ db.once('open', async () => {
     },
     {
       name: 'Glass Table',
-      category: categories[0]._id,
+      category: categories[4]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'glass-table.png',
@@ -106,7 +106,7 @@ db.once('open', async () => {
     },
     {
       name: 'Pearl Couch',
-      category: categories[2]._id,
+      category: categories[1]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'pearl-couch.png',
@@ -114,7 +114,7 @@ db.once('open', async () => {
     },
     {
       name: 'Simple Desk',
-      category: categories[3]._id,
+      category: categories[4]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'simple-desk.png',
@@ -122,7 +122,7 @@ db.once('open', async () => {
     },
     {
       name: 'Tall Lamp',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'tall-lamp.png',
@@ -130,7 +130,7 @@ db.once('open', async () => {
     },
     {
       name: 'Wall Art',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'wall-art.png',
@@ -146,7 +146,7 @@ db.once('open', async () => {
     },
     {
       name: 'Wire Table',
-      category: categories[1]._id,
+      category: categories[4]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'wire-table.png',
@@ -154,7 +154,7 @@ db.once('open', async () => {
     },
     {
       name: 'Wood Clock',
-      category: categories[0]._id,
+      category: categories[2]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'wood-clock.png',
@@ -162,7 +162,7 @@ db.once('open', async () => {
     },
     {
       name: 'Wood Lamp',
-      category: categories[1]._id,
+      category: categories[0]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'wood-lamp.png',
@@ -170,7 +170,7 @@ db.once('open', async () => {
     },
     {
       name: 'Worn Clock',
-      category: categories[4]._id,
+      category: categories[2]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'worn-clock.png',
