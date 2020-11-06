@@ -32,7 +32,11 @@ iDecorate is a application that can help you decorate your living space.  Simply
   - Uses a service worker for offline functionality
   
 ## Screen Shots
+![capture.png](images/Capture01.PNG)  
 
+![capture2.png](images/Capture02.PNG)  
+
+![capture2.png](images/Capture03.PNG)  
 
 
 ## Installation
@@ -57,6 +61,7 @@ This project is under no license.
 
 ## Submission  
 [github repository](https://github.com/DVanEman/iDecorate)  
+[Walkthrought Video](https://drive.google.com/file/d/1v5ggFzEszBSWP4DeNuvwDv1lqNUM6ILF/view)  
 [iDecorate heroku depolyment (placeholder link)](htts://heroko.deployment.placeholder)
 
 ## Questions:  
