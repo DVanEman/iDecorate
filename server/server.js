@@ -37,8 +37,4 @@ db.once('open', () => {
   });
 });
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/iDecorate', {
-  useFindAndModify: false,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
+
